@@ -1,0 +1,12 @@
+﻿body {
+    background-image: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)),url("/img/caverna.jpg");
+}
+
+.navbar-nav > a {
+    margin-right: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+

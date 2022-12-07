@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "upcycleshop", "upcycleshop.csproj", "{CECF4907-E7BF-42DD-AFDE-0B26D884BDEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CECF4907-E7BF-42DD-AFDE-0B26D884BDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECF4907-E7BF-42DD-AFDE-0B26D884BDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECF4907-E7BF-42DD-AFDE-0B26D884BDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECF4907-E7BF-42DD-AFDE-0B26D884BDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41539BDF-6A1F-4B59-B5A8-7BC4A3726B26}
+	EndGlobalSection
+EndGlobal
