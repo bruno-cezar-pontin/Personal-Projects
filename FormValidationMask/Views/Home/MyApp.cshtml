@@ -1,0 +1,38 @@
+﻿@model DesafioSeteForm.Models.Person
+@{
+    ViewBag.Title = "MyApp";
+}
+@section Scripts{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jquerymethod")
+    @Scripts.Render("~/bundles/mask")
+    @Scripts.Render("~/bundles/scriptmask")
+}
+
+
+
+
+@using (Html.BeginForm("MyApp", "Home", FormMethod.Post, new { name = "MyForm", id = "myformOne" }))
+{
+<center>
+    <h3>Preencha o formulario:</h3>
+    <hr />
+    <div class="form-info">
+
+    </div>
+    @Html.LabelFor(m => m.Nome) @Html.TextBoxFor(p => p.Nome) <br />
+    @Html.LabelFor(m => m.Idade) @Html.TextBoxFor(p => p.Idade) <br />
+    @Html.LabelFor(m => m.Email) @Html.TextBoxFor(p => p.Email) <br />
+    @Html.LabelFor(m => m.Date) @Html.TextBoxFor(p => p.Date, new { id = "DATE" })<br />
+    @Html.LabelFor(m => m.CPF) @Html.TextBoxFor(p => p.CPF, new { id = "CPF" })<br />
+    @Html.LabelFor(m => m.CNPJ) @Html.TextBoxFor(p => p.CNPJ, new { id = "CNPJ" })<br />
+    @Html.LabelFor(m => m.CartaoCredito) @Html.TextBoxFor(p => p.CartaoCredito, new { id = "CC" })<br />
+    <input type="submit" value="Submit" />
+
+</center>
+    <hr />
+}
+
+
+
